@@ -153,6 +153,9 @@ a.nav-link {
     height: auto;
     padding: 20px;
     margin: 5px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 100%;
 }
 
 .row2 {
@@ -162,12 +165,14 @@ a.nav-link {
     align-items: center;
     background-color: #1e1d1d;
     color: #ffffff;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
+    display: inline-block;
+    
+   
     flex-wrap: wrap;
     width: 200vh;
     text-transform: uppercase;
+    position: relative 50px 20px 10px 20px;
+    max-height: 500px;
 }
 
 .buy_now_button2 {
@@ -297,7 +302,7 @@ a.nav-link {
     display: block;
     margin-bottom: 45px;
     margin-top: 35px;
-    border-left: 10px #10e7f4;
+    /* border-left: 10px #10e7f4; */
     width: 300px;
     height: 360px;
 }
@@ -328,4 +333,14 @@ h6 {
 .text h6.price {
     font-weight: bold;
     margin-left: 15px;
+}
+.but-nav{
+    display: block;
+}
+
+#exampleInputName1{
+    width: 200px;
+}
+.buttom-navbar-nav{
+    display: block;
 }
